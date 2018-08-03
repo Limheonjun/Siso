@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>색맹</item>
+        <item>저시력자</item>
+    </string-array>
+</resources>

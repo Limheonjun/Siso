@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시소"
+        android:textAlignment="center"
+        android:paddingTop="50dp"
+        android:textColor="?attr/colorAccent"
+        android:textColorHighlight="@android:color/background_dark"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/idText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="아이디"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="이름"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/emergencyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="비상연락처"
+        android:inputType="textPersonName" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+
+
+        ﻿
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:hint="분류" />
+
+        <Spinner
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입" />
+
+
+</LinearLayout>
